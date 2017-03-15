@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.shizhefei.indicator.demo.R;
 import com.shizhefei.indicator.guide.GuideActivity;
+import com.shizhefei.indicator.guide.GuideHelperActivity;
 import com.shizhefei.indicator.moretab.MoreTab2Activity;
 import com.shizhefei.indicator.moretab.MoreTabActivity;
 import com.shizhefei.indicator.spring.SpringActivity;
@@ -43,6 +44,14 @@ public class MainActivity extends FragmentActivity {
      */
     public void onClickGuide(View view) {
         startActivity(new Intent(getApplicationContext(), GuideActivity.class));
+    }
+
+    /**
+     * 新手引导页
+     */
+
+    public void onHelperGuider(View view){
+        startActivity(new Intent(getApplicationContext(), GuideHelperActivity.class));
     }
 
     /**

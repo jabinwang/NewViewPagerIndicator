@@ -22,6 +22,10 @@
             android:name="com.shizhefei.indicator.guide.GuideActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
+            android:theme="@style/AppThemeHelper"
+            android:name="com.shizhefei.indicator.guide.GuideHelperActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
             android:name="com.shizhefei.indicator.tabmain.TabMainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
